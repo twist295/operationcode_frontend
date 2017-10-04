@@ -1,4 +1,4 @@
-.linkedIconCard {
+.card {
   padding: 10px;
   width: 150px;
   height: 150px;
@@ -9,16 +9,16 @@
   margin: 15px;
 }
 
-.linkedIconCard__icon {
+.cardIcon {
   flex: 2;
 }
 
-.linkedIconCard__title {
+.cardTitle {
   text-align: center;
 }
 
 @media screen and (max-width: 650px) {
-  .linkedIconCard {
+  .card {
     width: 100px;
     height: 100px;
   }
